@@ -69,7 +69,7 @@
                         </li>
                         {% if request.user.is_authenticated %}
                             <li class="mb-1">
-                                    <a class="font-medium text-gray-900 hover:text-blue-500 transition duration-150 ease-in-out" "{% url 'deposit_money' %}">Deposit</a>
+                                    <a class="font-medium text-gray-900 hover:text-blue-500 transition duration-150 ease-in-out" href="{% url 'deposit_money' %}">Deposit</a>
                             </li>
                             <li class="mb-1">
                                 <a class="font-medium text-gray-900 hover:text-green-500 transition duration-150 ease-in-out" href="{% url 'add_pet' %}">Add Pet</a>
